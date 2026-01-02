@@ -23,7 +23,9 @@
 ---
 
 ## Конфигурационный файл для сервиса
+### Приложение читает настройки из файла src/main/resources/application.properties
 
+### Пример файла application.properties
 ```bash
 # Префикс, показываемый пользователю (не настоящий внешний домен)
 app.baseUrl=short
