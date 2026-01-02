@@ -68,7 +68,8 @@ app.userUuidFile=.url-shortener-cli/user.uuid
 - cli/
     - CommandLoop — цикл чтения команд, обработка ввода/ошибок, вызовы сервисов
 - core/
-    - models/ — доменные модели (ShortLinks)
+    - exceptions/ — кастомные исключения
+    - models/ — доменные модели (ShortLink)
 - repository/ — интерфейсы хранилищ (LinkRepository, UserUuidStore)
 - infra/
     - cfg/
